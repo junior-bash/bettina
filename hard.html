@@ -1,0 +1,24 @@
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+      
+       <link rel="stylesheet" href="css/style.css">
+     </head>
+     <body>
+      <div id="message">
+        Hello World
+      </div>
+      <div>
+        <button type="button" class="green" onclick="showDialog();">Click Me</button>
+      </div>
+      <script>
+        function showDialog(myMessage) {
+          myMessage = document.getElementById("message").innerHTML;
+          alert (myMessage);
+          document.write (myMessage);
+          
+        }
+      </script>
+     </body>
+     </html>
